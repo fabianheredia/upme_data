@@ -1,0 +1,18 @@
+.header {
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+    background: #6b903d;
+    color: white;
+}
+
+
+#grafo {
+    max-width: auto;
+    overflow-x: auto;
+    padding: 0px;
+    margin: 0px;
+}
+#links{
+    color: black;
+}
