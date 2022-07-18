@@ -1,5 +1,5 @@
 width = 1200
-height = 765
+height = 1200
 
 margin =  {top: 30, right: 80, bottom: 5, left: 5}
 
@@ -46,15 +46,15 @@ simulation = d3.forceSimulation()
   //create some data
   const dataset =  {
     nodes: [
-          {id: 1, name: 'Interno', label: 'Info Interna', group: 'fuente', runtime: 20},
-          {id: 2, name: 'Externo', label: 'Info Extr', group: 'Externo', runtime: 60},
-          {id: 3, name: 'Planeacion', label: 'Final Calc', group: 'Planeacion', runtime: 30},
-          {id: 4, name: 'Infraestructura', label: 'Demographic', group: 'Infraestructura', runtime: 40},
-          {id: 5, name: 'Ent territorial', label: 'Eligibility', group: 'Ent territorial', runtime: 20},
-          {id: 6, name: 'Cultural', label: 'Goal Setting', group: 'Cultural', runtime: 60},
-          {id: 7, name: 'Catastro', label: 'Growth Model', group: 'Catastro', runtime: 60},
-          {id: 8, name: 'Biotico', label: 'Linkage', group: 'Biotico', runtime: 100},
-          {id: 24, name: 'Abiotico', label: 'Linkage', group: 'Abiotico', runtime: 100},
+          {id: 1, name: 'Interno', label: 'Info Interna', group: 'fuente', runtime: 138},
+          {id: 2, name: 'Externo', label: 'Info Extr', group: 'fuente', runtime: 0},
+          {id: 3, name: 'Planeacion', label: 'Final Calc', group: 'Planeacion', runtime: 13},
+          {id: 4, name: 'Infraestructura', label: 'Demographic', group: 'Infraestructura', runtime: 18},
+          {id: 5, name: 'Ent territorial', label: 'Eligibility', group: 'Ent territorial', runtime: 6},
+          {id: 6, name: 'Cultural', label: 'Goal Setting', group: 'Cultural', runtime: 18},
+          {id: 7, name: 'Catastro', label: 'Growth Model', group: 'Catastro', runtime: 8},
+          {id: 8, name: 'Biotico', label: 'Linkage', group: 'Biotico', runtime: 43},
+          {id: 24, name: 'Abiotico', label: 'Linkage', group: 'Abiotico', runtime: 35},
           {id: 9, name: 'Estado Inte', label: 'MOSL', group: 'Planeacion', runtime: 1},
           {id: 10, name: 'ANLA', label: 'MOSL', group: 'Planeacion', runtime: 12},
           {id:11, name: 'Transporte', label: 'MOSL', group: 'Infraestructura', runtime: 18},
